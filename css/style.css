@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #fafbfc;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+header{
+   background-color: rgb(60, 98, 124);
+   padding: 10px;
+   color: #fff;
+   text-align: center;
+}
+
+main{
+   padding: 30px 20%;
+}
+
+main .card{
+   background-color: #fff;
+   border: 1px solid #ccc;
+   padding: 20px;
+   margin-top: 15px;
+   border-radius: 5px;
+}
+
+main .lineInput{
+   display: grid;
+   margin-bottom: 10px;
+}
+
+main input{
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   outline: 0;
+}
+
+main button{
+   border: 0;
+   padding: 10px;
+   outline: 0;
+   background-color: rgb(60, 98, 124);
+   color: #fff;
+   border-radius: 3px;
+   font-weight: 700;
+   transition: all ease .3s;
+   cursor: pointer;
+}
+
+main button:hover{
+   background-color: rgb(48, 79, 99);
+}
+
+main .content{
+   margin-top: 15px;
+}
+
+main table{
+   width: 100%;
+   border-collapse: collapse;
+   border: 1px solid #ccc;
+}
+
+main table th{
+   background-color: rgb(222, 229, 235);
+}
+
+main table th, td{
+   text-align: left;
+   padding: 1px 5px;
+}
+
+main table td i{
+   font-size: 18px;
+   cursor: pointer;
+   color: rgb(48, 79, 99);
+   padding: 2px;
+   transition: all ease .3s;
+}
+
+main table td i:hover{
+   color: rgb(12, 22, 29);
+}
+
+.center{
+   text-align: center;
+}
